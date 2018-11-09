@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class MessageService {
+  private heroesUrl = 'api/heroes';  // URL to web api
   messages: string[] = [];
   constructor() { }
 
